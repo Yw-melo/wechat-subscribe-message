@@ -1,0 +1,22 @@
+{
+    "name": "ywmelo/subscribe-message",
+    "description": "Wechat subscribe message based on laravel notification and easy-wechat",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0.0",
+        "overtrue/wechat": ">=4.0.0",
+        "laravel/framework": ">=5.8.1"
+    },
+    "authors": [
+        {
+            "name": "Melo",
+            "email": "747786659@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ywmelo\\SubscribeMessage\\": "src/"
+        }
+    }
+}
