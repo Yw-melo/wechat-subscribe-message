@@ -17,8 +17,8 @@ namespace App\Notifications;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Notification;
-use Ywmelo\SubscribeMessage\Message\WechatSubScribeMessage;
-use YwmeloSubscribeMessage\Channels\WechatSubscribeMessageChannel;
+use Ywmelo\Message\WechatSubScribeMessage;
+use Ywmelo\Channels\WechatSubscribeMessageChannel;
 
 class WechatSubScribeMessageNotification extends Notification
 {

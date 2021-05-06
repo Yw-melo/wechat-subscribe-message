@@ -8,7 +8,7 @@ use Ywmelo\TemplateMessage\Exceptions\WechatSubscribeMessageException;
 class WechatSubscribeMessage
 {
 
-    private $templateMessage;
+    private $subscribeMessage;
 
     private $openId;
 
@@ -23,7 +23,7 @@ class WechatSubscribeMessage
      */
     public function __construct()
     {
-        $this->templateMessage = EasyWeChat::miniProgram()->template_message;
+        $this->subscribeMessage = EasyWeChat::miniProgram()->subscribe_message;
     }
 
     /**
