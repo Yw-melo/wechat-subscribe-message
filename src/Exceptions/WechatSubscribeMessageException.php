@@ -1,6 +1,6 @@
 <?php
 
-namespace Ywmelo\TemplateMessage\Exceptions;
+namespace Ywmelo\Exceptions;
 
 use Exception;
 use Symfony\Component\HttpFoundation\Response;

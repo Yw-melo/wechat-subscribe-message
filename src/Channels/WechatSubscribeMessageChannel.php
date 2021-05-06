@@ -1,10 +1,10 @@
 <?php
 
-namespace Ywmelo\TemplateMessage\Channels;
+namespace Ywmelo\Channels;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Notifications\Notification;
-use Ywmelo\TemplateMessage\Exceptions\WechatSubscribeMessageException;
+use Ywmelo\Exceptions\WechatSubscribeMessageException;
 
 class WechatSubscribeMessageChannel
 {
