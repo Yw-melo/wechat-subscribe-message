@@ -18,6 +18,8 @@ class WechatSubscribeMessage
 
     private $data;
 
+    private $miniprogramStatus;
+
     /**
      * WechatTemplateMessage constructor.
      */
@@ -49,6 +51,7 @@ class WechatSubscribeMessage
             'template_id' => $this->templateId,
             'page' => $this->page,
             'data' => $this->data,
+            'miniprogram_state' => $this->miniprogramStatus,
         ];
     }
 
@@ -97,6 +100,17 @@ class WechatSubscribeMessage
     }
 
     /**
+     * @param array $data
+     * @return $this
+     */
+    public function setState($miniprogramStatus = 'formal')
+    {
+        $this->miniprogramStatus = $miniprogramStatus;
+
+        return $this;
+    }
+
+    /**
      * @return array
      */
     public function toArray()
@@ -106,6 +120,7 @@ class WechatSubscribeMessage
             'template_id' => $this->templateId,
             'page' => $this->page,
             'data' => $this->data,
+            'miniprogram_state' => $this->miniprogramStatus,
         ];
     }
 }
