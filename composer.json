@@ -1,5 +1,5 @@
 {
-    "name": "ywmelo/subscribe-message",
+    "name": "mobilenowgroup/subscribe-message",
     "description": "Wechat subscribe message based on laravel notification and easy-wechat",
     "type": "library",
     "license": "MIT",
@@ -16,7 +16,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Ywmelo\\": "src/"
+            "MobileNowGroup\\SubscribeMessage": "src/"
         }
     }
 }

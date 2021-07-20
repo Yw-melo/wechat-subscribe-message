@@ -5,7 +5,7 @@
 ## 安装
 
 ```shell
-composer require ywmelo/subscribe-message
+composer require mobilenowgroup/subscribe-message
 ```
 
 ## 使用
@@ -17,7 +17,7 @@ namespace App\Notifications;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Notifications\Notification;
-use Ywmelo\Message\WechatSubScribeMessage;
+use MobilenowGroup\Message\WechatSubScribeMessage;
 use Ywmelo\Channels\WechatSubscribeMessageChannel;
 
 class WechatSubScribeMessageNotification extends Notification
